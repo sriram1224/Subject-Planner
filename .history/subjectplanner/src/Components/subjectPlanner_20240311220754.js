@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './style.css'
 
 export default function SubjectPlanner() {
     const [subject, setSubject] = useState([]);
@@ -59,9 +58,8 @@ function decrease(index) {
                     {subject.map((subject, index) => (
                         <li className='list' key={index}>
                             <p>{subject.name}</p>
+                            <input  type="number" value={subject.Hours} readOnly />
                             <button onClick={() => increase(index)}>+</button>
-                            <input type="number" value={subject.Hours} readOnly />
-                            
                             <button onClick={() => decrease(index)}>-</button>
                         </li>
                     ))}
