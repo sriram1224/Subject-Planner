@@ -16,14 +16,10 @@ body {
 .subject-input input {
     margin-top: 20px;
 }
-
-.subject-input, .number-input{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-      
-       
+.number-input{
+   
 }
+
 
 .subject-input input,
 .number-input input {
@@ -34,7 +30,10 @@ body {
     margin-bottom: 10px;
     width: 20%;
     box-sizing: border-box;
-    
+    display: flex;
+    position: relative;
+    left: 40%;
+    gap: 4rem;
 }
 
 /* Button Styles */

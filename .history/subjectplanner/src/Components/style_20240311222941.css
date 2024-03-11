@@ -17,13 +17,6 @@ body {
     margin-top: 20px;
 }
 
-.subject-input, .number-input{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-      
-       
-}
 
 .subject-input input,
 .number-input input {
@@ -34,7 +27,6 @@ body {
     margin-bottom: 10px;
     width: 20%;
     box-sizing: border-box;
-    
 }
 
 /* Button Styles */
@@ -67,7 +59,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 3rem 0 0 35rem;
+    margin: 3rem 0 0 40rem;
 }
 .list p {
     margin: 0;

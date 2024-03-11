@@ -45,10 +45,10 @@ function decrease(index) {
                     <h1>Education Planner</h1>
                 </div>
                 <div className="subject-input">
-                    <h2>Subjects</h2><input value={subjectInput} onChange={handleSubjectChange} />
+                    <input value={subjectInput} onChange={handleSubjectChange} />
                 </div>
                 <div className='number-input'>
-                  <h2>Hours</h2>  <input type="number" value={NumberInput} onChange={handleHours} /> 
+                    <input type="number" value={NumberInput} onChange={handleHours} /><p>       :hours</p>
                 </div>
                 <div className='button'>
                     <button onClick={clicked}>ADD</button>

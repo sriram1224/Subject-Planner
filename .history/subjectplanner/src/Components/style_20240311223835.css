@@ -18,10 +18,10 @@ body {
 }
 
 .subject-input, .number-input{
-    width: 100%;
     display: flex;
     justify-content: space-around;
-      
+        position: relative;
+        left: 40%;
        
 }
 
